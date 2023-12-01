@@ -1,5 +1,5 @@
-from chap1.audience import Audience
-from chap1.ticket_seller import TicketSeller
+from chap1.before.audience import Audience
+from chap1.before.ticket_seller import TicketSeller
 
 
 class Theater:

@@ -1,4 +1,5 @@
-from chap1.ticket_office import TicketOffice
+from chap1.after.audience import Audience
+from chap1.after.ticket_office import TicketOffice
 
 
 class TicketSeller:
@@ -8,3 +9,7 @@ class TicketSeller:
     @property
     def ticket_office(self) -> TicketOffice:
         return self._ticket_office
+
+    def sell_to(self, audience: Audience) -> None:
+        self._ticket_office.sell_ticket_to(audience)
+

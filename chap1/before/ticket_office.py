@@ -1,4 +1,4 @@
-from chap1.ticket import Ticket
+from chap1.before.ticket import Ticket
 
 
 class TicketOffice:

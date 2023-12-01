@@ -1,4 +1,4 @@
-from chap1.bag import Bag
+from chap1.before.bag import Bag
 
 
 class Audience:

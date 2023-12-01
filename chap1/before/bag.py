@@ -1,5 +1,5 @@
-from chap1.invitation import Invitation
-from chap1.ticket import Ticket
+from chap1.before.invitation import Invitation
+from chap1.before.ticket import Ticket
 
 
 class Bag:
